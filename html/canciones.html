@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- iconos -->
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/botones.css">
+    <link rel="stylesheet" href="/css/letras.css">
+    <link rel="stylesheet" href="/css/card.css">
+    <link rel="icon" href="/img/IconoNave.png">
+
+    <title>Canción</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <div>
+            </div>
+            <img src="/img/logowhite.png" height="50" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Vistas</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/html/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/mision.html">Quienes Somos</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/canciones.html">Canciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/foro.html">Foro</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Cursos
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="/cursos/Guitarra.html">Guitarra</a></li>
+                                <li><a class="dropdown-item" href="/cursos/bajo.html">Bajo</a></li>
+                                <li><a class="dropdown-item" href="/cursos/piano.html">Piano</a></li>
+                                <li><a class="dropdown-item" href="/cursos/bateria.html">Bateria</a></li>
+                                <li><a class="dropdown-item" href="/cursos/teclado.html">Teclado</a></li>
+                                <li><a class="dropdown-item" href="/cursos/audio.html">Audio</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+                        <button class="btn btn-success" type="submit">buscar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class=" d-flex justify-content-center mt-5">
+        <h1>Tablaturas</h1>
+    </div>
+    <div class="container">
+        <div class="row mt-3">
+
+            <div class="col-3">
+                <a href="" style="text-decoration: none">
+                    <div class="card">
+                        <img src="/icon/guitarAcustic.gif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ac. Guitarra</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="" style="text-decoration: none">
+                    <div class="card">
+                        <img src="/icon/bass.gif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ac. Bajo</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="" style="text-decoration: none">
+                    <div class="card">
+                        <img src="/icon/drum.gif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ac. Bateria</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="" style="text-decoration: none">
+                    <div class="card">
+                        <img src="/icon/piano.gif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ac. Piano</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center mt-3">
+        <a class="btn1 col-2 text-center " href="/html/index.html">Inicio</a>
+    </div>
+
+
+    <footer class="page-footer bg-dark font-small blue pt-4 text-white mt-4 ">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-4 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Redes Sociales</h5>
+                    <ul class="list-unstyled ">
+
+                        <li>
+                            <a style="text-decoration: none" class="text-white" href="#!">Instagram</a>
+                        </li>
+                        <li>
+                            <a style="text-decoration: none" class="text-white" href="#!">Facebook</a>
+                        </li>
+                        <li>
+                            <a style="text-decoration: none" class="text-white" href="#!">YouTube</a>
+                        </li>
+                        <li>
+                            <a style="text-decoration: none" class="text-white" href="#!">TikTok</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-md-0 mb-3">
+                    <h5 class="text-uppercase ">Contacto</h5>
+                    <ul class="list-unstyled ">
+                        <li>
+                            <a style="text-decoration: none" class="text-white" href="#!">correo@musical.cl</a>
+                        </li>
+                        <li>
+                            <a style="text-decoration: none" class="text-white" href="#!">+56 9 7997 8763</a>
+                        </li>
+                        <li>
+                            <a style="text-decoration: none" class="text-white" href="#!"></a>
+                        </li>
+                        <li>
+                            <a style="text-decoration: none" class="text-white" href="#!"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-md-0 mb-3">
+                    <h5 class="text-uppercase ">Atencion al Cliente</h5>
+                    <ul class="list-unstyled ">
+                        <li>
+                            <a style="text-decoration: none" class="text-white" href="#!">Asistencia de Compra</a>
+                        </li>
+                        <li>
+                            <a style="text-decoration: none" class="text-white" href="#!">Devoluciones</a>
+                        </li>
+                        <li>
+                            <a style="text-decoration: none" class="text-white" href="#!">Garantias</a>
+                        </li>
+                        <li>
+                            <a style="text-decoration: none" class="text-white" href="#!">Servicio Tecnico</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <p>© 2023 Todos los derechos reservados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

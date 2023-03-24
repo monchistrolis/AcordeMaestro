@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- iconos -->
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/botones.css">
+    <link rel="stylesheet" href="/css/letras.css">
+    <link rel="stylesheet" href="/css/card.css">
+    <link rel="stylesheet" href="/css/comentario.css">
+    <link rel="icon" href="/img/IconoNave.png">
+
+
+    <title>Foro</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <div>
+            </div>
+            <img src="/img/logowhite.png" height="50" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Vistas</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/html/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/mision.html">Quienes Somos</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/canciones.html">Canciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/foro.html">Foro</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Cursos
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="/cursos/Guitarra.html">Guitarra</a></li>
+                                <li><a class="dropdown-item" href="/cursos/bajo.html">Bajo</a></li>
+                                <li><a class="dropdown-item" href="/cursos/piano.html">Piano</a></li>
+                                <li><a class="dropdown-item" href="/cursos/bateria.html">Bateria</a></li>
+                                <li><a class="dropdown-item" href="/cursos/teclado.html">Teclado</a></li>
+                                <li><a class="dropdown-item" href="/cursos/audio.html">Audio</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+                        <button class="btn btn-success" type="submit">buscar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-flex justify-content-center mt-5">
+        <h1 >La Cafeteria</h1>
+    </div>
+
+    <div class=" container d-flex justify-content-center mt-3">
+        <div class="row col-8">
+            <div class="col-12">
+
+                <div class=" contenedor1 mt-3">
+                    <input id="nuevoComentario" class="inputComentario"type="text" placeholder="Escribe tu comentario">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container d-flex justify-content-center mt-4">
+
+        <ul id="comentarios" class="contenedor-2">
+        </ul>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <button class="btn1 mt-3 col-6" onclick="nComentario()">Agregar</button>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
